@@ -39,7 +39,8 @@ export function IntroLoader() {
 
   return (
     <div
-      aria-hidden="true"
+      role="status"
+      aria-label="Loading Ironclad Commercial Floors"
       className={`fixed inset-0 z-[100] flex items-center justify-center overflow-hidden bg-background ${phase === "exit" ? "intro-exit" : ""}`}
     >
       <div className="intro-ceiling" />
